@@ -1,0 +1,423 @@
+/* GLOBAL STYLES */
+
+
+
+
+
+
+
+/**{color:#FF0000;} BE CARE USING THIS GBAL SELECTOR */
+
+html, body {
+    height:100%;
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    background-color:#FFFFFF;
+    font-family:'Lucida Sans', Verdana, sans-serif;
+    font-size:16px;
+    font-weight:500;
+    color:#000000;
+}
+
+h1, h2, h3 {
+    margin:0px;
+    padding:0px;
+    color:#0000FF;    /* THIS IS A BLUE */
+}
+
+h1 {
+    font-size:3em;
+    
+}
+
+p {
+    margin:15px 0px;
+    line-height:15px;
+}
+
+b, strong {
+    color:#0000FF;
+}
+
+a {
+   color:#0099FF;
+   text-decoration:none;
+}
+
+a :hover {
+    color:#0000FF;
+    text-decoration:underline;
+}
+
+figure {
+    margin:0px;
+    padding:0px;
+}
+
+hr {
+    margin:30px 0px;
+}
+
+/* HEADER STYLES */
+
+header {
+    background-color:#F1F1F1;
+    /*height:150px;*/
+}
+
+#header {
+    padding:15px 0px;
+    position:relative;
+}
+
+#logo {
+    padding:15px;
+    color:#0000FF;
+}
+#logo:hover {
+    color:#FF0000;
+    text-decoration:none;
+}
+
+/* NAVIGATION STYLES */
+
+#menu {
+    position:absolute;
+    top:40px;
+    right:5%;
+}
+
+#menu li {
+    display:inline;
+    margin:0px 10px;
+    font-weight:600;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+#menu li a:hover {
+    background-color:#0000FF;
+}
+
+#menu li:after {
+    content:"|";
+    padding:16px 20px;
+    color:rgb(0, 153, 255);
+}
+
+.currentPage a {
+    color:;
+    text-decoration:none;
+    padding:5px;
+}
+
+/* BANNER STYLES */
+
+#bannerHome {
+    border-top:3px solid #0099CC;
+    padding:80px 0px;
+    background:url(../images/banner.jpg) no-repeat center #0099CC; 
+    background-size:cover;
+    overflow:hidden;
+}
+
+#bannerAbout {
+    border-top:3px solid #0099CC;
+    padding:80px 0px;
+    background:url(../images/banner_about.jpg) no-repeat center #0099CC; 
+    background-size:cover;
+    overflow:hidden;
+}
+
+#bannerContact {
+    border-top:3px solid #0099CC;
+    padding:80px 0px;
+    background:url(../images/banner_about.jpg) no-repeat center #0099CC; 
+    background-size:cover;
+    overflow:hidden;
+}
+
+.bannerTitle {
+    text-align:center;
+    color:#FFFFFF;
+    font-size:2em;
+    text-shadow:3px 3px 3px #000000;
+}
+
+/*MAIN BODY SECTION*/
+
+.mainWidth {
+    width:1200px;
+    margin:0px auto;
+    background-color:#f1f1f1;
+    
+}
+
+/*COLUMN STYLES*/
+
+.columnA, .columnB, .columnC {
+    width:384px;
+}
+
+.columnA, .columnB {
+    float:left;
+    margin-right:24px;
+}
+
+.columnC {
+    float:right;
+}
+
+.columnA h2, .columnB h2, .columnC h2 {
+    color:#0099CC;
+    font-size:2.2em;
+    font-weight:900;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+/*.likeImage {
+    width:384px;
+    height:225px;
+    background-color:#000000;
+} */
+
+.likeImage span {
+    display:block;
+    background-color:#0000FF;
+    color:#FFFFFF;
+    text-align:center;
+    font-weight:700;
+    font-size:2em;
+    padding:18px 0px;
+}
+
+.columnA p, .columnB p, .columnC p {
+    text-align:justify;
+    padding:0px;
+}
+
+
+/* BUTTON STYLES */
+
+a.button, .button {
+    color:#FFFFFF;
+    background-color:#4d4dff;
+	padding:10px 15px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+	text-decoration:none;
+	border:4px solid #0000ff;
+	font-weight:700;
+	text-transform:uppercase;
+	font-size:2em;
+	float:left;
+}
+
+a.button:hover, .button:hover {
+    background-color:#0000ff;
+    border:3px solid #000000;
+    text-decoration:none;
+    color:#FFFFFF;
+    cursor:url(../images/lol.png), auto;
+}
+
+#bannerButton {
+    width:300px;
+    margin:0px auto;
+}
+
+a.buttonRed {
+}
+
+a.buttonRed:hover {
+}
+
+#bannerButton {
+    width:300px;
+    margin:0px auto;
+    margin-top:25px;
+}
+
+/*ABOUT ME STYLES*/
+
+.alignLeft {
+    float:left;
+    width:384px;
+    margin-right:24px;
+    padding:30px 0px;
+}
+
+.alignRight {
+    float:right;
+    width:792px;
+    text-align:justify;
+    padding:30px 0px;
+}
+
+#main {
+    margin-bottom:25px;
+}
+
+/*FOOTER STYLES*/
+
+footer {
+    clear:both;
+    margin-top:25px;
+}
+
+.copyright {
+    overflow:hidden;
+    padding:30px 0px;
+    border-top:3px solid #4d4dff;
+    background-color:#E2E2E2;
+    display:block;
+}
+
+.social {
+    text-align:center;
+}
+
+.copyright p {
+    text-align:center;
+    font-size:2em;
+}
+
+footer a {
+    color:#326985;
+}
+
+footer a:hover {
+    color:#6EAACB;
+}
+
+/* ============ TABLE STYLES ============= */
+#myData {
+    width:900px;
+    margin:0px auto;
+}
+
+#myData thead th {
+    background-color:#0099FF;
+    color:#FFFFFF;
+    text-shadow:3px 3px 3px #000000;
+    padding:8px;
+    border-radius:8px;
+    font-size:1.2em;
+}
+
+#myHeader {
+    
+}
+
+
+#groupData {
+    width:900px;
+    margin:0px auto;
+}
+
+#groupData thead th {
+    background-color:#0099FF;
+    color:#FFFFFF;
+    text-shadow:3px 3px 3px #000000;
+    padding:8px;
+    border-radius:8px;
+    font-size:1.2em;
+}
+
+#groupHeader {
+    
+}
+
+
+/*FORM STYLES*/
+.form {
+    margin:50px 50px;
+    background-color:#F1F1F1;
+    border-radius:15px;
+    padding:25px;
+    width:25%;
+
+input, textarea {
+    border-radius:10px;
+    border:2px solid #C3C3A2;
+    box-shadow:1px 1px 1px #DDD inset;
+    color:#C3C3A2;
+    display:block;
+}    
+
+textarea {
+    height:200px;
+}
+    
+
+/*EXTRA STYLES*/
+
+.label {
+    color:#FF0000;
+    font-weight:900;
+}
+
+.fa {
+    background-color:#999;
+    border:3px solid #FFF;
+    font-size:2em !important;
+    margin:15px;
+    color:#FFF;
+    height:28px;
+    width:28px;
+    padding:10px;
+    border-radius:100%;
+}
+
+.fa:hover {
+    background-color:#FF7900;
+}
+
+/*MY MEDIA QUERIES FOR SCREEN SIZES 500PX*/
+@media screen and (max-width: 1024px) {
+   .columnA, .columnB, .columnC {
+        width:auto;
+        margin:1% auto;
+   }
+   
+   h2 {
+       font-size:2em;
+   }
+   
+   p {
+       font-size:1.25em;
+   }
+   
+   .mainWidth {
+        width:100%;
+        margin:20px auto;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
